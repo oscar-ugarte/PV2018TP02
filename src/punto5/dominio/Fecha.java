@@ -106,7 +106,7 @@ public class Fecha {
         int i = 0 ;
         while( i <= dias ){
             fechalocal = fecha1.getTime() ; //Obtiene la fecha actual dentro del ciclo.
-            System.out.println("Dia: " + fecha1.get(Calendar.DAY_OF_WEEK) );
+            // System.out.println("Dia: " + fecha1.get(Calendar.DAY_OF_WEEK) ); //Para ver el numero del día de semana.
             System.out.println("Fecha: " + sdf.format(fechalocal) );
             fecha1.add(Calendar.DAY_OF_MONTH,1); //Aumenta el día en 1.
             i++;
